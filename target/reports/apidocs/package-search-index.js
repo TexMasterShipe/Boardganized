@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.boardganized"},{"l":"com.boardganized.controller"},{"l":"com.boardganized.domain.model"},{"l":"com.boardganized.view"}];updateSearchResults();

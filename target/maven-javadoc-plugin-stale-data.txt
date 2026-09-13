@@ -1,0 +1,55 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+-classpath
+'/home/alexis/.m2/repository/org/openjfx/javafx-controls/21.0.4/javafx-controls-21.0.4-linux.jar:/home/alexis/.m2/repository/org/openjfx/javafx-graphics/21.0.4/javafx-graphics-21.0.4.jar:/home/alexis/.m2/repository/org/openjfx/javafx-graphics/21.0.4/javafx-graphics-21.0.4-linux.jar:/home/alexis/.m2/repository/org/openjfx/javafx-base/21.0.4/javafx-base-21.0.4.jar:/home/alexis/.m2/repository/org/openjfx/javafx-base/21.0.4/javafx-base-21.0.4-linux.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'17'
+-sourcepath
+'/home/alexis/Projet/boardganized/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2026. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/alexis/Projet/boardganized/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'boardganized 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'boardganized 1.0-SNAPSHOT API'
+com.boardganized.domain.model
+com.boardganized.controller
+com.boardganized.view
+com.boardganized
+/home/alexis/.m2/repository/org/openjfx/javafx-controls/21.0.4/javafx-controls-21.0.4-linux.jar = 1721128849000
+/home/alexis/.m2/repository/org/openjfx/javafx-graphics/21.0.4/javafx-graphics-21.0.4.jar = 1721128861000
+/home/alexis/.m2/repository/org/openjfx/javafx-graphics/21.0.4/javafx-graphics-21.0.4-linux.jar = 1721128871000
+/home/alexis/.m2/repository/org/openjfx/javafx-base/21.0.4/javafx-base-21.0.4.jar = 1721128833000
+/home/alexis/.m2/repository/org/openjfx/javafx-base/21.0.4/javafx-base-21.0.4-linux.jar = 1721128837000
+/home/alexis/Projet/boardganized/src/main/java = 1786273047599
+/home/alexis/Projet/boardganized/target/reports/apidocs/element-list = 1789038238465
+/home/alexis/Projet/boardganized/target/reports/apidocs/index.html = 1789038238530
+/home/alexis/Projet/boardganized/target/reports/apidocs/overview-summary.html = 1789038238559
+/home/alexis/Projet/boardganized/target/reports/apidocs/script.js = 1789038238564
+/home/alexis/Projet/boardganized/target/reports/apidocs/allpackages-index.html = 1789038238543
+/home/alexis/Projet/boardganized/target/reports/apidocs/type-search-index.js = 1789038238545
+/home/alexis/Projet/boardganized/target/reports/apidocs/index-all.html = 1789038238558
+/home/alexis/Projet/boardganized/target/reports/apidocs/jquery-ui.overrides.css = 1789038238569
+/home/alexis/Projet/boardganized/target/reports/apidocs/member-search-index.js = 1789038238545
+/home/alexis/Projet/boardganized/target/reports/apidocs/allclasses-index.html = 1789038238541
+/home/alexis/Projet/boardganized/target/reports/apidocs/overview-tree.html = 1789038238527
+/home/alexis/Projet/boardganized/target/reports/apidocs/module-search-index.js = 1789038238544
+/home/alexis/Projet/boardganized/target/reports/apidocs/help-doc.html = 1789038238563
+/home/alexis/Projet/boardganized/target/reports/apidocs/tag-search-index.js = 1789038238545
+/home/alexis/Projet/boardganized/target/reports/apidocs/package-search-index.js = 1789038238544
+/home/alexis/Projet/boardganized/target/reports/apidocs/stylesheet.css = 1789038238564
+/home/alexis/Projet/boardganized/target/reports/apidocs/search.js = 1789038238566

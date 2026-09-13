@@ -1,0 +1,6 @@
+com/boardganized/domain/model/Checklist.class
+com/boardganized/domain/model/Card.class
+com/boardganized/Main.class
+com/boardganized/domain/model/Board.class
+com/boardganized/domain/model/Label.class
+com/boardganized/domain/model/Column.class
