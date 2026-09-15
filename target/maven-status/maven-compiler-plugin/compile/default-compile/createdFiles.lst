@@ -1,6 +1,13 @@
-com/boardganized/domain/model/Checklist.class
-com/boardganized/domain/model/Card.class
 com/boardganized/Main.class
 com/boardganized/domain/model/Board.class
 com/boardganized/domain/model/Label.class
 com/boardganized/domain/model/Column.class
+com/boardganized/Main$1.class
+com/boardganized/Main$2.class
+com/boardganized/domain/model/Checklist.class
+com/boardganized/domain/model/Card.class
+com/boardganized/view/BoardView.class
+com/boardganized/controller/BoardController.class
+com/boardganized/controller/BoardController$CardLocation.class
+com/boardganized/domain/model/BoardWorkspace.class
+com/boardganized/service/BoardPersistenceService.class

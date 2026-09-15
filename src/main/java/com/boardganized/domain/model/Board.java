@@ -1,5 +1,6 @@
 package com.boardganized.domain.model;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
@@ -7,12 +8,14 @@ import java.util.UUID;
 /**
  * Représente un tableau de travail composé de colonnes et de cartes.
  */
-public class Board {
+public class Board implements Serializable {
+
+    private static final long serialVersionUID = 1L;
 
     private final UUID id;
     private String title;
     private String description;
-    private List<Column> columns;
+    private final List<Column> columns;
 
     /**
      * Crée un nouveau tableau.
@@ -24,7 +27,7 @@ public class Board {
         this.id = UUID.randomUUID();
         this.title = title;
         this.description = description;
-        this.columns = new ArrayList<Column>();
+        this.columns = new ArrayList<>();
     }
 
     /**

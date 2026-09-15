@@ -1,17 +1,20 @@
 package com.boardganized.domain.model;
 
-import java.util.UUID;
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.UUID;
 
 /**
  * Représente une colonne d'un tableau, contenant une liste de cartes.
  */
-public class Column {
+public class Column implements Serializable {
+
+    private static final long serialVersionUID = 1L;
 
     private final UUID id;
     private String title;
-    List<Card> cards;
+    private final List<Card> cards;
 
     /**
      * Crée une colonne avec un titre donné.
@@ -21,7 +24,7 @@ public class Column {
     public Column(String title) {
         this.id = UUID.randomUUID();
         this.title = title;
-        this.cards = new ArrayList<Card>();
+        this.cards = new ArrayList<>();
     }
 
     /**

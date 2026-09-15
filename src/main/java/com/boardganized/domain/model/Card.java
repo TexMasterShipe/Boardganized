@@ -1,11 +1,14 @@
 package com.boardganized.domain.model;
 
+import java.io.Serializable;
 import java.util.UUID;
 
 /**
  * Représente une carte dans une colonne d'un tableau.
  */
-public class Card {
+public class Card implements Serializable {
+
+    private static final long serialVersionUID = 1L;
 
     private final UUID id;
     private String title;
